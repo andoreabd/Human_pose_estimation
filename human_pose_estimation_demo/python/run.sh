@@ -1,3 +1,5 @@
+source openvino_env/bin/activate
+
 python3 human_pose_estimation_demo.py \
   -d CPU \
   -i /home/root/Human_pose_estimation/human_pose_estimation_demo/python/face-demographics-walking.mp4 \
